@@ -225,3 +225,78 @@ nav{
     width: 60%;
     padding: 8% 0;
 }
+
+/* Our-team */
+.our-team{
+    margin: 5% 5%;
+    background-color: #fff;
+    border-radius: 5px;
+    padding-bottom: 1%;
+}
+.our-team h1{
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 2% 0;
+    color: #fff;
+    background-color: rgb(40, 40, 40);
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgb(155, 155, 155);
+}
+.our-team .persons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 1% 2%;
+}
+.our-team .person{
+    background: rgb(254,219,65);
+    background: linear-gradient(172deg, rgba(254,219,65,1) 19%, rgba(227,227,227,1) 21%, rgba(254,219,65,1) 23%, rgba(228,227,222,1) 25%, rgba(227,227,227,1) 100%);
+    width: 20%;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    box-shadow: 8px 5px 5px rgb(155, 155, 155);
+    transition: 3s ease background;
+}
+.our-team .person:hover{
+    background: rgb(131,43,199);
+    background: linear-gradient(172deg, rgba(131,43,199,1) 8%, rgba(254,219,65,1) 28%, rgba(227,227,227,1) 29%, rgba(254,219,65,1) 35%, rgba(228,227,222,1) 37%, rgba(227,227,227,1) 100%);
+}
+.our-team .person-pic{
+    width: 100%;
+    border-radius: 5px;
+    border: 3px dashed var(--color1);
+}
+.our-team .person-info{
+    display: flex;
+    align-items: center;
+}
+h4,h5{
+    border-bottom: 3px solid rgb(126, 126, 126);
+    font-size: 1.5rem;
+}
+.our-team .person-info h4{
+    width: 80%;
+    color: var(--color1);
+}
+.our-team .person-info h5{
+    border-bottom: 3px solid;
+}
+.our-team p{
+    margin: 3% 0%;
+}
+.our-team .person-socials{
+    border-top: 3px solid  rgb(126, 126, 126);
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-team .person-socials img{
+    width: 13%;
+    padding: 2%;
+}
+
+footer{
+    background-color: rgb(27, 13, 46);
+    height: 40vh;
+}
