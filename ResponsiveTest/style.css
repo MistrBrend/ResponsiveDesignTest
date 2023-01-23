@@ -23,6 +23,10 @@ html {
 }
 
 /* header -> */
+header{
+    position: sticky;
+    top: 0;
+}
 /* nav */
 nav{
     background-color: rgb(27, 13, 46);
@@ -168,6 +172,7 @@ nav{
     display: flex;
     justify-content: space-between;
     border-top: 3px solid rgb(187, 127, 247);
+    border-bottom: 3px solid rgb(187, 127, 247);
     background-color: #7700d1;
     padding: 6% 8%;
     margin-top: 5%;
